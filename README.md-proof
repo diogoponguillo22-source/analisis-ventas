@@ -1,2 +1,10 @@
 # analisis-ventas
 Análisis de datos de ventas- Mi primer proyecto
+numero1 = int(input("Primer número: "))
+numero2 = int(input("Segundo número: "))
+operacion = input("Escribe + para sumar o - para restar: ")
+
+if operacion == "+":
+    print(numero1 + numero2)
+else:
+    print(numero1 - numero2)
